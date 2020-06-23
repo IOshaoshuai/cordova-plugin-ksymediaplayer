@@ -5,9 +5,9 @@ ksymediaplayer cordova plugin  wrap
 金山云ios项目:   https://github.com/ksvc/KSYMediaPlayer_iOS
 
 
-#TODO
+# TODO
 android 封装 ,即将到来
 
 
-#Install 
+# Install 
 cordova plugin add https //github.com/luaxlou/cordova-plugin-ksymediaplayer.git
