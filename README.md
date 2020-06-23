@@ -1,3 +1,5 @@
+感谢[Jetbrain](https://www.jetbrains.com/?from=goutils) 为开源事业提供的支持。
+
 # cordova-plugin-ksymediaplayer
 ksymediaplayer cordova plugin  wrap
 感谢金山云对行业做出的贡献  
