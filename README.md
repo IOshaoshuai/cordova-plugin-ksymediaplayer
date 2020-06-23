@@ -5,6 +5,22 @@ ksymediaplayer cordova plugin  wrap
 金山云ios项目:   https://github.com/ksvc/KSYMediaPlayer_iOS
 
 
+# Usage
+```
+        if(typeof window.plugins.ksymediaplayer =='undefined') {
+          alert('Please make sure has installed ksymediaplayer plugin ')
+        }
+
+
+
+
+        window.plugins.ksymediaplayer.play(url, (res) => {
+          console.log(res)
+        }, (err) => {
+          console.log(err)
+        })
+```
+
 # TODO
 android 封装 ,即将到来
 
