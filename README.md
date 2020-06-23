@@ -7,18 +7,16 @@ ksymediaplayer cordova plugin  wrap
 
 # Usage
 ```
-        if(typeof window.plugins.ksymediaplayer =='undefined') {
-          alert('Please make sure has installed ksymediaplayer plugin ')
-        }
+if(typeof window.plugins.ksymediaplayer =='undefined') {
+  alert('Please make sure has installed ksymediaplayer plugin ')
+}
 
 
-
-
-        window.plugins.ksymediaplayer.play(url, (res) => {
-          console.log(res)
-        }, (err) => {
-          console.log(err)
-        })
+window.plugins.ksymediaplayer.play(url, (res) => {
+  console.log(res)
+}, (err) => {
+  console.log(err)
+})
 ```
 
 # TODO
