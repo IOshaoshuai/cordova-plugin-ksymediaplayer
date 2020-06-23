@@ -24,5 +24,5 @@ window.plugins.ksymediaplayer.play(url, (res) => {
 ```
 
 # TODO
-android 封装 ,即将到来
+android 封装 : ksymediaplay_android 并不支持rtsp，因此暂时不做封装
 
