@@ -1,2 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-ksymediaplayer" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>ksymediaplayer</name><js-module name="ksymediaplayer" src="www/ksymediaplayer.js"><clobbers target="cordova.plugins.ksymediaplayer" /></js-module><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="ksymediaplayer"><param name="ios-package" value="ksymediaplayer" /></feature></config-file><source-file src="src/ios/ksymediaplayer.m" /><podspec><config><source url="https://github.com/CocoaPods/Specs.git" /></config><pods use-frameworks="false"><pod name="KSYMediaPlayer_iOS/KSYMediaPlayer_live" /></pods></podspec><framework src="libc++.tbd" weak="true" /></platform></plugin>
+<plugin id="cordova-plugin-ksymediaplayer" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>ksymediaplayer</name>
+    <js-module name="ksymediaplayer" src="www/ksymediaplayer.js">
+        <clobbers target="cordova.plugins.ksymediaplayer"/>
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="ksymediaplayer">
+                <param name="ios-package" value="ksymediaplayer"/>
+            </feature>
+        </config-file>
+        <source-file src="src/ios/ksymediaplayer.m"/>
+        <podspec>
+            <config>
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
+            <pods use-frameworks="false">
+                <pod name="KSYMediaPlayer_iOS/KSYMediaPlayer_live"/>
+            </pods>
+        </podspec>
+        <framework src="libc++.tbd" weak="true"/>
+    </platform>
+</plugin>
