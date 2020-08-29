@@ -12,14 +12,8 @@
             </feature>
         </config-file>
         <source-file src="src/ios/ksymediaplayer.m"/>
-        <podspec>
-            <config>
-                <source url="https://github.com/CocoaPods/Specs.git"/>
-            </config>
-            <pods use-frameworks="false">
-                <pod name="KSYMediaPlayer_iOS/KSYMediaPlayer_live"/>
-            </pods>
-        </podspec>
+        <framework src="src/ios/KSYMediaPlayer.framework" custom="true" />
+
         <framework src="libc++.tbd" weak="true"/>
     </platform>
 </plugin>
